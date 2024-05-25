@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  margin-top: 200px;
+}
+input,
+button {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  color: gray;
+  outline: none;
+  cursor: pointer;
+}
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 40%;
+}
